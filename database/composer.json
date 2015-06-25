@@ -1,0 +1,29 @@
+{
+    "name": "comodojo/database",
+    "description": "Multi-database library for comodojo",
+    "license": "GPL-3.0+",
+    "type": "library",
+    "keywords": [
+        "comodojo",
+        "database",
+        "query",
+        "builder"
+    ],
+    "homepage": "http://www.comodojo.org",
+     "support": {
+        "issues": "https://github.com/comodojo/database/issues"
+    },
+    "authors": [
+        {
+            "name": "Marco Giovinazzi",
+            "email": "info@comodojo.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Comodojo\\Exception\\": "src/Exception",
+            "Comodojo\\Database\\QueryBuilder\\": "src/QueryBuilder",
+            "Comodojo\\Database\\": "src"
+        }
+    }
+}
